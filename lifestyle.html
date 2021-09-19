@@ -152,22 +152,26 @@
                                         <a href="">Fake IDs</a>
                                 </p>
                         </div>
-                        <div class="list-group-container" id="CrossIvyAdmits">
-                                <p class="list-group-item"> <a href="">Age of First Alcohol Con</a></p>
+                        <div class="list-group-container" id="ageAlc">
+                                <p class="list-group-item"> <a href="">Age of First Alcohol Consumption</a></p>
                         </div>
-                        <div class="list-group-container" id="LastYears">
-                                <p class="list-group-item"><a href="">Last Year's Survey</a></p>
+                        <div class="list-group-container" id="AlcCons">
+                                <p class="list-group-item"><a href="">Alcohol Consumption</a></p>
                         </div>
-                        <div class="list-group-container" id="PrefPrinceton">
-                                <p class="list-group-item"><a href="">Preference for Princeton</a></p>
-                        </div>
-
-                        <div class="list-group-container" id="PCAssistance">
-                                <p class="list-group-item"><a href="">Private College Assistance</a></p>
+                        <div class="list-group-container" id="fakeFin">
+                                <p class="list-group-item"><a href="">Fake IDs by Financial Aid</a></p>
                         </div>
 
-                        <div class="list-group-container" id="HSCouns">
-                                <p class="list-group-item"><a href="">High School College Counselors</a></p>
+                        <div class="list-group-container" id="AlcLeg">
+                                <p class="list-group-item"><a href="">Alcohol Consumption by Legacy Status</a></p>
+                        </div>
+
+                        <div class="list-group-container" id="AlcFin">
+                                <p class="list-group-item"><a href="">Alcohol Consumption by Financial Aid</a></p>
+                        </div>
+
+                        <div class="list-group-container" id="FakeLeg">
+                                <p class="list-group-item"><a href="">Fake IDs by Legacy Status</a></p>
                         </div>
 
 
@@ -175,417 +179,604 @@
 
                 <div class="container">
 
-                        <div class="AdmissionsType inner" style="opacity:1;pointer-events: auto;">
-                                <iframe title="Admission Type" aria-label="chart" id="datawrapper-chart-yJgov"
-                                        src="https://datawrapper.dwcdn.net/yJgov/1/" scrolling="no" frameborder="0"
-                                        style="width: 0; min-width: 100% !important; border: none;"
-                                        height="468"></iframe>
-                                <script
-                                        type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
-                        </div>
-                        <div class="CrossIvyAdmits inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Cross-Ivy Admits" aria-label="Bar Chart" id="datawrapper-chart-rCsZ9"
-                                        src="https://datawrapper.dwcdn.net/rCsZ9/2/" scrolling="no" frameborder="0"
-                                        style="width: 0; min-width: 100% !important; border: none;"
-                                        height="278"></iframe>
-                                <script
-                                        type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
-                        </div>
-                        <div class="LastYears inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Last Year's Survey" aria-label="chart" id="datawrapper-chart-AuMzH"
-                                        src="https://datawrapper.dwcdn.net/AuMzH/1/" scrolling="no" frameborder="0"
-                                        style="width: 0; min-width: 100% !important; border: none;"
-                                        height="468"></iframe>
-                                <script
-                                        type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
-                        </div>
-                        <div class="PrefPrinceton inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Private College Assistance" aria-label="chart"
-                                        id="datawrapper-chart-c1vS3" src="https://datawrapper.dwcdn.net/c1vS3/1/"
-                                        scrolling="no" frameborder="0"
-                                        style="width: 0; min-width: 100% !important; border: none;"
-                                        height="471"></iframe>
-                                <script
-                                        type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
-                        </div>
-
-                        <div class="PCAssistance inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="High School College Counselors" aria-label="chart"
-                                        id="datawrapper-chart-yCxts" src="https://datawrapper.dwcdn.net/yCxts/1/"
-                                        scrolling="no" frameborder="0"
+                        <div class="fakeID inner" style="opacity:1;pointer-events: auto;">
+                                <iframe title="Fake IDs" aria-label="chart" id="datawrapper-chart-ME1bf"
+                                        src="https://datawrapper.dwcdn.net/ME1bf/2/" scrolling="no" frameborder="0"
                                         style="width: 0; min-width: 100% !important; border: none;"
                                         height="454"></iframe>
-                                <script
-                                        type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
-                        </div>
-
-                        <div class="HSCouns inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Legacy" aria-label="chart" id="datawrapper-chart-q2enw"
-                                        src="https://datawrapper.dwcdn.net/q2enw/2/" loading="lazy" scrolling="no"
-                                        frameborder="0" style="width: 0; min-width: 100% !important; border: none;"
-                                        height="456"></iframe>
                                 <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();
                                 </script>
+                                   </div>
+                                <div class="ageAlc inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Age of First Alcohol Consumption" aria-label="Column Chart" id="datawrapper-chart-wEL9m" src="https://datawrapper.dwcdn.net/wEL9m/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+                                <div class="AlcCons inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Alcohol Consumption" aria-label="Column Chart" id="datawrapper-chart-DK30H" src="https://datawrapper.dwcdn.net/DK30H/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+                                <div class="fakeFin inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Fake IDs by Financial Aid" aria-label="Grouped Column Chart" id="datawrapper-chart-RPpyK" src="https://datawrapper.dwcdn.net/RPpyK/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+
+                                <div class="AlcLeg inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Alcohol Consumption by Legacy Status" aria-label="Grouped Column Chart" id="datawrapper-chart-FFoOU" src="https://datawrapper.dwcdn.net/FFoOU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+
+                                <div class="AlcFin inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Alcohol Consumption by Financial Aid" aria-label="Grouped Column Chart" id="datawrapper-chart-KqLMa" src="https://datawrapper.dwcdn.net/KqLMa/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+
+                                <div class="FakeLeg inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Fake IDs by Legacy Status" aria-label="Grouped Column Chart" id="datawrapper-chart-LXCJ3" src="https://datawrapper.dwcdn.net/LXCJ3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+
+
+
                         </div>
+
+
 
 
 
                 </div>
 
 
+                <div class="tabbable-group" id="Drugs" data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <h2 class="subcategory">Drugs</h2>
+                        <div class="pills">
+                                <div class="list-group-container" id="Vapingfin" style="background-color: orange">
+                                        <p class="list-group-item" style="font-weight: bold"><a href="">
+                                                        Vaping by Financial Aid </a></p>
+                                </div>
+                                <div class="list-group-container" id="Marijuana">
+                                        <p class="list-group-item"><a href="">Marijuana Use</a></p>
+                                </div>
+                                <div class="list-group-container" id="Substance">
+                                        <p class="list-group-item"><a href="">Substance Use</a></p>
+                                </div>
+                                <div class="list-group-container" id="Psychedelics">
+                                        <p class="list-group-item"><a href="">Psychedelics</a></p>
+                                </div>
+                                <div class="list-group-container" id="Hard">
+                                        <p class="list-group-item"><a href="">Hard Drugs</a></p>
+                                </div>
+                                <div class="list-group-container" id="Vaping">
+                                        <p class="list-group-item"><a href="">Vaping and Electronic Smoking</a></p>
+                                </div>
+                                <div class="list-group-container" id="Tobacco">
+                                        <p class="list-group-item"><a href="">Tobacco Use</a></p>
+                                </div>
+                                <div class="list-group-container" id="Age">
+                                        <p class="list-group-item"><a href="">Age of First Marijuana Use</a></p>
+                                </div>
+                                <div class="list-group-container" id="Marijuanaleg">
+                                        <p class="list-group-item"><a href="">Marijuana Use by Legacy Status</a></p>
+                                </div>
+                                <div class="list-group-container" id="Vapingleg">
+                                        <p class="list-group-item"><a href="">Vaping by Legacy Status</a></p>
+                                </div>
+                                <div class="list-group-container" id="Marijuanafin">
+                                        <p class="list-group-item"><a href="">Marijuana Use by Financial Aid</a></p>
+                                </div>
 
-
-
-        </div>
-
-
-        <div class="tabbable-group" id="HonorCode" data-aos="fade-up" data-aos-easing="ease-in-out">
-                <h2 class="subcategory">Honor Code</h2>
-                <div class="pills">
-                        <div class="list-group-container" id="SusbyKnow" style="background-color: orange">
-                                <p class="list-group-item" style="font-weight: bold"><a href="">
-                                        Honor Code Suspension by High School Cheating Knowledge </a></p>
                         </div>
-                        <div class="list-group-container" id="PersonalCheating">
-                                <p class="list-group-item"><a href="">Personal Cheating</a></p>
+
+                        <div class="container">
+
+                                <div class="Vapingfin inner" style="opacity:1;pointer-events: auto;">
+                                        <iframe title="Vaping by Financial Aid" aria-label="Grouped Column Chart" id="datawrapper-chart-dS2SC" src="https://datawrapper.dwcdn.net/dS2SC/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+                                <div class="Marijuana inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Marijuana Use" aria-label="Column Chart" id="datawrapper-chart-2l83i" src="https://datawrapper.dwcdn.net/2l83i/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="476"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+                                <div class="Substance inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Substance Use" aria-label="chart" id="datawrapper-chart-LL5F7" src="https://datawrapper.dwcdn.net/LL5F7/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="471"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+                                <div class="Psychedelics inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Psychedelics" aria-label="Column Chart" id="datawrapper-chart-5cQ9G" src="https://datawrapper.dwcdn.net/5cQ9G/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+
+                                <div class="Hard inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Hard Drugs" aria-label="Column Chart" id="datawrapper-chart-uHv07" src="https://datawrapper.dwcdn.net/uHv07/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+
+                                <div class="Vaping inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Vaping and Electronic Smoking" aria-label="chart" id="datawrapper-chart-inVDO" src="https://datawrapper.dwcdn.net/inVDO/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+
+                                <div class="Tobacco inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Tobacco Use" aria-label="chart" id="datawrapper-chart-HMlpm" src="https://datawrapper.dwcdn.net/HMlpm/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+                                <div class="Age inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Age of First Marijuana Use" aria-label="Column Chart" id="datawrapper-chart-Yd5ey" src="https://datawrapper.dwcdn.net/Yd5ey/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+
+                                <div class="Marijuanaleg inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Marijuana Use by Legacy Status" aria-label="Grouped Column Chart" id="datawrapper-chart-GMe1H" src="https://datawrapper.dwcdn.net/GMe1H/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+
+                                <div class="Vapingleg inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Vaping by Legacy Status" aria-label="Grouped Column Chart" id="datawrapper-chart-H0EbU" src="https://datawrapper.dwcdn.net/H0EbU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+
+                                <div class="Marijuanafin inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Marijuana Use by Financial Aid" aria-label="Grouped Column Chart" id="datawrapper-chart-ZlWGJ" src="https://datawrapper.dwcdn.net/ZlWGJ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+
+
                         </div>
-                        <div class="list-group-container" id="ReportingCheating">
-                                <p class="list-group-item"><a href="">Reporting Cheating</a></p>
-                        </div>
-                        <div class="list-group-container" id="KnowledgeCheating">
-                                <p class="list-group-item"><a href="">Knowledge of Cheating</a></p>
-                        </div>
-                       
+
                 </div>
 
-                <div class="container">
+                <div class="tabbable-group" id="nightlife" data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <h2 class="subcategory">Night Life</h2>
+                        <div class="pills">
+                                <div class="list-group-container" id="eatingclubsleg" style="background-color: orange">
+                                        <p class="list-group-item" style="font-weight: bold"><a href="">Eating Clubs by Legacy Status</a></p>
+                                </div>
+                                <div class="list-group-container" id="greek">
+                                        <p class="list-group-item"><a href="">Greek Life</a></p>
+                                </div>
+                                <div class="list-group-container" id="eatingclubs">
+                                        <p class="list-group-item"><a href="">Eating Clubs</a></p>
+                                </div>
+                                <div class="list-group-container" id="eatingclubsfin">
+                                        <p class="list-group-item"><a href="">Eating Clubs by Financial Aid</a></p>
+                                </div>
+                               
+                        </div>
 
-                        <div class="SusbyKnow inner" style="opacity:1;pointer-events: auto;">
-                                <iframe title="Honor Code Suspension by High School Cheating Knowledge" aria-label="Column Chart" id="datawrapper-chart-uv0dV" src="https://datawrapper.dwcdn.net/uv0dV/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="600"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="PersonalCheating inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Personal Cheating" aria-label="Column Chart" id="datawrapper-chart-aGSb3" src="https://datawrapper.dwcdn.net/aGSb3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="ReportingCheating inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Reporting Cheating" aria-label="Column Chart" id="datawrapper-chart-Z0Td3" src="https://datawrapper.dwcdn.net/Z0Td3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="KnowledgeCheating inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Knowledge of Cheating" aria-label="Column Chart" id="datawrapper-chart-L9Au5" src="https://datawrapper.dwcdn.net/L9Au5/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                     
+                        <div class="container">
 
-                </div>
-
-        </div>
-
-        <div class="tabbable-group" id="IntendedStudies" data-aos="fade-up" data-aos-easing="ease-in-out">
-                <h2 class="subcategory">Intended Studies</h2>
-                <div class="pills">
-                        <div class="list-group-container" id="InDegFinAid" style="background-color: orange">
-                                <p class="list-group-item" style="font-weight: bold"><a href="">Intended Degree Type by Financial Aid</a></p>
+                                <div class="eatingclubsleg inner" style="opacity:1;pointer-events: auto;">
+                                        <iframe title="Eating Clubs by Legacy Status" aria-label="Column Chart" id="datawrapper-chart-LziOt" src="https://datawrapper.dwcdn.net/LziOt/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+                                <div class="greek inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Greek Life" aria-label="chart" id="datawrapper-chart-909uD" src="https://datawrapper.dwcdn.net/909uD/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+                                <div class="eatingclubs inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Eating Clubs" aria-label="chart" id="datawrapper-chart-xRr2J" src="https://datawrapper.dwcdn.net/xRr2J/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+                                <div class="eatingclubsfin inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Eating Clubs by Financial Aid" aria-label="Column Chart" id="datawrapper-chart-a0apD" src="https://datawrapper.dwcdn.net/a0apD/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+                                        </script>
+                                </div>
+                              
+                          
                         </div>
-                        <div class="list-group-container" id="InDegGend">
-                                <p class="list-group-item"><a href="">Degree Option by Gender Identity</a></p>
-                        </div>
-                        <div class="list-group-container" id="MajorbyGen">
-                                <p class="list-group-item"><a href="">Intended Major by Gender</a></p>
-                        </div>
-                        <div class="list-group-container" id="Careers">
-                                <p class="list-group-item"><a href="">Prospective Careers</a></p>
-                        </div>
-                        <div class="list-group-container" id="MajorByMath">
-                                <p class="list-group-item"><a href="">Intended Major by Mathematical Achievement</a></p>
-                        </div>
-                        <div class="list-group-container" id="MajorByFin">
-                                <p class="list-group-item"><a href="">Intended Major by Financial Aid</a></p>
-                        </div>
-                        <div class="list-group-container" id="MajorBySS">
-                                <p class="list-group-item"><a href="">Intended Major by Secondary School Type</a></p>
-                        </div>
-                     
-                        <div class="list-group-container" id="Language">
-                                <p class="list-group-item"><a href="">Studying Languages</a></p>
-                        </div>
-                      
-                        <div class="list-group-container" id="Degree">
-                                <p class="list-group-item"><a href="">Intended Degree</a></p>
-                        </div>
-                </div>
-
-                <div class="container">
-
-                        <div class="InDegFinAid inner" style="opacity:1;pointer-events: auto;">
-                                <iframe title="Intended Degree Type by Financial Aid" aria-label="Grouped Column Chart" id="datawrapper-chart-bD4z9" src="https://datawrapper.dwcdn.net/bD4z9/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="InDegGend inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Degree Option by Gender Identity" aria-label="Grouped Column Chart" id="datawrapper-chart-qWssh" src="https://datawrapper.dwcdn.net/qWssh/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="MajorbyGen inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Intended Major by Gender" aria-label="Column Chart" id="datawrapper-chart-4NWQE" src="https://datawrapper.dwcdn.net/4NWQE/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="700"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="Careers inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Prospective Careers" aria-label="Bar Chart" id="datawrapper-chart-6wwrQ" src="https://datawrapper.dwcdn.net/6wwrQ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="518"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="MajorByMath inner" style="opacity:0;pointer-events: none;"> 
-                                <iframe title="Intended Major by Mathematical Achievement" aria-label="Column Chart" id="datawrapper-chart-6dTEI" src="https://datawrapper.dwcdn.net/6dTEI/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="MajorByFin inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Intended Major by Financial Aid" aria-label="Column Chart" id="datawrapper-chart-E2Kn1" src="https://datawrapper.dwcdn.net/E2Kn1/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="MajorBySS inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Intended Major by Secondary School Type" aria-label="Column Chart" id="datawrapper-chart-lPaZE" src="https://datawrapper.dwcdn.net/lPaZE/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                      
-
-                        <div class="Language inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Studying Languages" aria-label="Bar Chart" id="datawrapper-chart-3uzHm" src="https://datawrapper.dwcdn.net/3uzHm/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="758"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                       
-                         <div class="Degree inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Intended Degree" aria-label="chart" id="datawrapper-chart-ARwvz" src="https://datawrapper.dwcdn.net/ARwvz/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                </div>
-                </div>
                 </div>
 
                 <div class="tabbable-group" id="IntendedConcCert" data-aos="fade-up" data-aos-easing="ease-in-out">
                         <h2 class="subcategory">Intended Concentrations and Certificates</h2>
                         <div class="pills">
-                            
-                                <div class="list-group-container" id="Concentration"  style="background-color: orange">
+
+                                <div class="list-group-container" id="Concentration" style="background-color: orange">
                                         <p class="list-group-item"><a href="">Intended Concentration</a></p>
                                 </div>
-                             
+
                                 <div class="list-group-container" id="Certificate">
                                         <p class="list-group-item"><a href="">Intended Certificate</a></p>
                                 </div>
-                               
+
                         </div>
-        
+
                         <div class="container">
-        
-                               
-                                <div style = "opacity:1;pointer-events: auto;" class="Concentration inner" style="opacity:0;pointer-events: none;">
-                                        <iframe title="Intended Concentration" aria-label="Bar Chart" id="datawrapper-chart-bYcHh" src="https://datawrapper.dwcdn.net/bYcHh/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1038"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+
+
+                                <div style="opacity:1;pointer-events: auto;" class="Concentration inner"
+                                        style="opacity:0;pointer-events: none;">
+                                        <iframe title="Intended Concentration" aria-label="Bar Chart"
+                                                id="datawrapper-chart-bYcHh"
+                                                src="https://datawrapper.dwcdn.net/bYcHh/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="1038"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
                                 </div>
-        
-                              
+
+
                                 <div class="Certificate inner" style="opacity:0;pointer-events: none;">
-                                        <iframe title="Intended Certificate" aria-label="Bar Chart" id="datawrapper-chart-so1fT" src="https://datawrapper.dwcdn.net/so1fT/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1574"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+                                        <iframe title="Intended Certificate" aria-label="Bar Chart"
+                                                id="datawrapper-chart-so1fT"
+                                                src="https://datawrapper.dwcdn.net/so1fT/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="1574"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
                                 </div>
-                               
+
                         </div>
+                </div>
+                <div class="tabbable-group" id="PreCollege" data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <h2 class="subcategory">Pre-College Studies</h2>
+                        <div class="pills">
+                                <div class="list-group-container" id="APClasses" style="background-color: orange">
+                                        <p class="list-group-item" style="font-weight: bold">AP Classes</p>
+                                </div>
+                                <div class="list-group-container" id="Extracurriculars">
+                                        <p class="list-group-item">Extracurriculars</p>
+                                </div>
+                                <div class="list-group-container" id="GraduationHonors">
+                                        <p class="list-group-item">Graduation Honors</p>
+                                </div>
+                                <div class="list-group-container" id="IBClasses">
+                                        <p class="list-group-item">IB Classes</p>
+                                </div>
+                                <div class="list-group-container" id="IBTests">
+                                        <p class="list-group-item">IB Tests</p>
+                                </div>
+                                <div class="list-group-container" id="Math">
+                                        <p class="list-group-item">Math</p>
+                                </div>
+                                <div class="list-group-container" id="APTests">
+                                        <p class="list-group-item">AP Tests</p>
+                                </div>
+                                <div class="list-group-container" id="AdvancedStudy">
+                                        <p class="list-group-item">Advanced Study</p>
+                                </div>
+                                <div class="list-group-container" id="HighSchoolStudy">
+                                        <p class="list-group-item">High School Studying</p>
+                                </div>
                         </div>
-        <div class="tabbable-group" id="PreCollege" data-aos="fade-up" data-aos-easing="ease-in-out">
-                <h2 class="subcategory">Pre-College Studies</h2>
-                <div class="pills">
-                        <div class="list-group-container" id="APClasses" style="background-color: orange">
-                                <p class="list-group-item" style="font-weight: bold">AP Classes</p>
-                        </div>
-                        <div class="list-group-container" id="Extracurriculars">
-                                <p class="list-group-item">Extracurriculars</p>
-                        </div>
-                        <div class="list-group-container" id="GraduationHonors">
-                                <p class="list-group-item">Graduation Honors</p>
-                        </div>
-                        <div class="list-group-container" id="IBClasses">
-                                <p class="list-group-item">IB Classes</p>
-                        </div>
-                        <div class="list-group-container" id="IBTests">
-                                <p class="list-group-item">IB Tests</p>
-                        </div>
-                        <div class="list-group-container" id="Math">
-                                <p class="list-group-item">Math</p>
-                        </div>
-                        <div class="list-group-container" id="APTests">
-                                <p class="list-group-item">AP Tests</p>
-                        </div>
-                        <div class="list-group-container" id="AdvancedStudy">
-                                <p class="list-group-item">Advanced Study</p>
-                        </div>
-                        <div class="list-group-container" id="HighSchoolStudy">
-                                <p class="list-group-item">High School Studying</p>
+
+                        <div class="container">
+
+                                <div class="APClasses inner" style="opacity:1;pointer-events: auto;">
+                                        <iframe title="AP Classes" aria-label="Column Chart"
+                                                id="datawrapper-chart-m7xk7"
+                                                src="https://datawrapper.dwcdn.net/m7xk7/2/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="400"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="Extracurriculars inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Extracurriculars" aria-label="Bar Chart"
+                                                id="datawrapper-chart-vk803"
+                                                src="https://datawrapper.dwcdn.net/vk803/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="590"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="GraduationHonors inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Graduation Honors" aria-label="chart"
+                                                id="datawrapper-chart-tFmMP"
+                                                src="https://datawrapper.dwcdn.net/tFmMP/2/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="454"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="IBClasses inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="IB Classes" aria-label="Column Chart"
+                                                id="datawrapper-chart-9XgzO"
+                                                src="https://datawrapper.dwcdn.net/9XgzO/2/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="472"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="IBTests inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="IB Tests" aria-label="Column Chart" id="datawrapper-chart-bCFfc"
+                                                src="https://datawrapper.dwcdn.net/bCFfc/2/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="400"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="Math inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Math" aria-label="Column Chart" id="datawrapper-chart-Espw5"
+                                                src="https://datawrapper.dwcdn.net/Espw5/3/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="485"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+
+                                <div class="APTests inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="AP Tests" aria-label="Column Chart" id="datawrapper-chart-vX7Kg"
+                                                src="https://datawrapper.dwcdn.net/vX7Kg/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="400"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+
+                                <div class="AdvancedStudy inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="Advanced Study" aria-label="Column Chart"
+                                                id="datawrapper-chart-in7Pm"
+                                                src="https://datawrapper.dwcdn.net/in7Pm/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="400"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="HighSchoolStudy inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="High School Studying" aria-label="Column Chart"
+                                                id="datawrapper-chart-6yOAW"
+                                                src="https://datawrapper.dwcdn.net/6yOAW/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="400"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+
+
                         </div>
                 </div>
 
-                <div class="container">
-
-                        <div class="APClasses inner" style="opacity:1;pointer-events: auto;">
-                                <iframe title="AP Classes" aria-label="Column Chart" id="datawrapper-chart-m7xk7" src="https://datawrapper.dwcdn.net/m7xk7/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="Extracurriculars inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Extracurriculars" aria-label="Bar Chart" id="datawrapper-chart-vk803" src="https://datawrapper.dwcdn.net/vk803/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="590"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="GraduationHonors inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Graduation Honors" aria-label="chart" id="datawrapper-chart-tFmMP" src="https://datawrapper.dwcdn.net/tFmMP/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="IBClasses inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="IB Classes" aria-label="Column Chart" id="datawrapper-chart-9XgzO" src="https://datawrapper.dwcdn.net/9XgzO/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="472"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="IBTests inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="IB Tests" aria-label="Column Chart" id="datawrapper-chart-bCFfc" src="https://datawrapper.dwcdn.net/bCFfc/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="Math inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Math" aria-label="Column Chart" id="datawrapper-chart-Espw5" src="https://datawrapper.dwcdn.net/Espw5/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="485"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-
-                        <div class="APTests inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="AP Tests" aria-label="Column Chart" id="datawrapper-chart-vX7Kg" src="https://datawrapper.dwcdn.net/vX7Kg/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-
-                        <div class="AdvancedStudy inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="Advanced Study" aria-label="Column Chart" id="datawrapper-chart-in7Pm" src="https://datawrapper.dwcdn.net/in7Pm/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="HighSchoolStudy inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="High School Studying" aria-label="Column Chart" id="datawrapper-chart-6yOAW" src="https://datawrapper.dwcdn.net/6yOAW/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
 
 
+                <div class="tabbable-group" id="testing" data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <h2 class="subcategory">Testing</h2>
+                        <div class="pills">
+                                <div class="list-group-container" id="ACTSubScores" style="background-color: orange">
+                                        <p class="list-group-item" style="font-weight: bold"><a href="">ACT Scores by
+                                                        Submission</a></p>
+                                </div>
+                                <div class="list-group-container" id="ACTRec">
+                                        <p class="list-group-item"><a href="">ACT Scores by Recruit Status</a></p>
+                                </div>
+                                <div class="list-group-container" id="ACTFin">
+                                        <p class="list-group-item"><a href="">ACT Scores by Financial Aid</a></p>
+                                </div>
+                                <div class="list-group-container" id="SATFin">
+                                        <p class="list-group-item"><a href="">SAT Scores by Financial Aid</a></p>
+                                </div>
+                                <div class="list-group-container" id="SATSubScores">
+                                        <p class="list-group-item"><a href="">SAT Scores by Submission</a></p>
+                                </div>
+
+                                <div class="list-group-container" id="SATRec">
+                                        <p class="list-group-item"><a href="">SAT Scores by Recruit Status</a></p>
+                                </div>
+                                <div class="list-group-container" id="SATLeg">
+                                        <p class="list-group-item"><a href="">SAT Scores by Legacy Status</a></p>
+                                </div>
+                                <div class="list-group-container" id="ACTScore">
+                                        <p class="list-group-item"><a href="">ACT Scores</a></p>
+                                </div>
+                                <div class="list-group-container" id="SATScore">
+                                        <p class="list-group-item"><a href="">SAT Scores</a></p>
+                                </div>
+                                <div class="list-group-container" id="ACTLeg">
+                                        <p class="list-group-item"><a href="">ACT Score by Legacy</a></p>
+                                </div>
+                                <div class="list-group-container" id="SATSub">
+                                        <p class="list-group-item"><a href="">SAT Submission</a></p>
+                                </div>
+                                <div class="list-group-container" id="ACTSub">
+                                        <p class="list-group-item"><a href="">ACT Submission</a></p>
+                                </div>
+                                <div class="list-group-container" id="SAT">
+                                        <p class="list-group-item"><a href="">SAT</a></p>
+                                </div>
+                                <div class="list-group-container" id="ACT">
+                                        <p class="list-group-item"><a href="">ACT</a></p>
+                                </div>
+
+                        </div>
+
+                        <div class="container">
+
+                                <div class="ACTSubScores inner" style="opacity:1;pointer-events: auto;">
+                                        <iframe title="ACT Score by ACT Score Submission" aria-label="Column Chart"
+                                                id="datawrapper-chart-d6Kwn"
+                                                src="https://datawrapper.dwcdn.net/d6Kwn/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="600"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="ACTRec inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="ACT Scores by Recruit Status" aria-label="Column Chart"
+                                                id="datawrapper-chart-cOdwL"
+                                                src="https://datawrapper.dwcdn.net/cOdwL/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="400"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="ACTFin inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="ACT Scores by Financial Aid" aria-label="Column Chart"
+                                                id="datawrapper-chart-T5bSk"
+                                                src="https://datawrapper.dwcdn.net/T5bSk/2/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="400"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="SATFin inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="SAT Scores by Financial Aid" aria-label="Column Chart"
+                                                id="datawrapper-chart-Qn8N5"
+                                                src="https://datawrapper.dwcdn.net/Qn8N5/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="500"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="SATSubScores inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="SAT Score by SAT Score Submission" aria-label="Column Chart"
+                                                id="datawrapper-chart-qxrmc"
+                                                src="https://datawrapper.dwcdn.net/qxrmc/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="500"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="SATRec inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="SAT Scores by Recruit Status" aria-label="Column Chart"
+                                                id="datawrapper-chart-xy7y4"
+                                                src="https://datawrapper.dwcdn.net/xy7y4/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="400"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="SATLeg inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="SAT Scores by Legacy Status" aria-label="Column Chart"
+                                                id="datawrapper-chart-ChSal"
+                                                src="https://datawrapper.dwcdn.net/ChSal/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="400"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="ACTScore inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="ACT Scores" aria-label="Column Chart"
+                                                id="datawrapper-chart-oWgF1"
+                                                src="https://datawrapper.dwcdn.net/oWgF1/2/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="400"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+
+                                <div class="SATScore inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="SAT Scores" aria-label="Column Chart"
+                                                id="datawrapper-chart-RrK3C"
+                                                src="https://datawrapper.dwcdn.net/RrK3C/2/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="400"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="ACTLeg inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="ACT Score by Legacy Status" aria-label="Column Chart"
+                                                id="datawrapper-chart-nP8Kh"
+                                                src="https://datawrapper.dwcdn.net/nP8Kh/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="400"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="SATSub inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="SAT Score Submission" aria-label="chart"
+                                                id="datawrapper-chart-DFmxw"
+                                                src="https://datawrapper.dwcdn.net/DFmxw/3/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="454"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="ACTSub inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="ACT Score Submission" aria-label="chart"
+                                                id="datawrapper-chart-LAbSE"
+                                                src="https://datawrapper.dwcdn.net/LAbSE/2/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="454"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="SAT inner" style="opacity:0;pointer-events: none;"><iframe title="The SAT"
+                                                aria-label="chart" id="datawrapper-chart-xs4Gn"
+                                                src="https://datawrapper.dwcdn.net/xs4Gn/2/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="454"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+                                <div class="ACT inner" style="opacity:0;pointer-events: none;">
+                                        <iframe title="The ACT" aria-label="chart" id="datawrapper-chart-a0Zm9"
+                                                src="https://datawrapper.dwcdn.net/a0Zm9/1/" scrolling="no"
+                                                frameborder="0"
+                                                style="width: 0; min-width: 100% !important; border: none;"
+                                                height="454"></iframe>
+                                        <script
+                                                type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();</script>
+                                </div>
+
+
+
+
+                        </div>
                 </div>
-        </div>
-
-
-
-        <div class="tabbable-group" id="testing" data-aos="fade-up" data-aos-easing="ease-in-out">
-                <h2 class="subcategory">Testing</h2>
-                <div class="pills">
-                        <div class="list-group-container" id="ACTSubScores" style="background-color: orange">
-                                <p class="list-group-item" style="font-weight: bold"><a href="">ACT Scores by Submission</a></p>
-                        </div>
-                        <div class="list-group-container" id="ACTRec">
-                                <p class="list-group-item"><a href="">ACT Scores by Recruit Status</a></p>
-                        </div>
-                        <div class="list-group-container" id="ACTFin">
-                                <p class="list-group-item"><a href="">ACT Scores by Financial Aid</a></p>
-                        </div>
-                        <div class="list-group-container" id="SATFin">
-                                <p class="list-group-item"><a href="">SAT Scores by Financial Aid</a></p>
-                        </div>
-                        <div class="list-group-container" id="SATSubScores">
-                                <p class="list-group-item"><a href="">SAT Scores by Submission</a></p>
-                        </div>
-                   
-                        <div class="list-group-container" id="SATRec">
-                                <p class="list-group-item"><a href="">SAT Scores by Recruit Status</a></p>
-                        </div>
-                        <div class="list-group-container" id="SATLeg">
-                                <p class="list-group-item"><a href="">SAT Scores by Legacy Status</a></p>
-                        </div>
-                        <div class="list-group-container" id="ACTScore">
-                                <p class="list-group-item"><a href="">ACT Scores</a></p>
-                        </div>
-                        <div class="list-group-container" id="SATScore">
-                                <p class="list-group-item"><a href="">SAT Scores</a></p>
-                        </div>
-                        <div class="list-group-container" id="ACTLeg">
-                                <p class="list-group-item"><a href="">ACT Score by Legacy</a></p>
-                        </div>
-                        <div class="list-group-container" id="SATSub">
-                                <p class="list-group-item"><a href="">SAT Submission</a></p>
-                        </div>
-                        <div class="list-group-container" id="ACTSub">
-                                <p class="list-group-item"><a href="">ACT Submission</a></p>
-                        </div>
-                        <div class="list-group-container" id="SAT">
-                                <p class="list-group-item"><a href="">SAT</a></p>
-                        </div>
-                        <div class="list-group-container" id="ACT">
-                                <p class="list-group-item"><a href="">ACT</a></p>
-                        </div>
-                       
-                </div>
-
-                <div class="container">
-
-                        <div class="ACTSubScores inner" style="opacity:1;pointer-events: auto;">
-                                <iframe title="ACT Score by ACT Score Submission" aria-label="Column Chart" id="datawrapper-chart-d6Kwn" src="https://datawrapper.dwcdn.net/d6Kwn/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="600"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="ACTRec inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="ACT Scores by Recruit Status" aria-label="Column Chart" id="datawrapper-chart-cOdwL" src="https://datawrapper.dwcdn.net/cOdwL/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="ACTFin inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="ACT Scores by Financial Aid" aria-label="Column Chart" id="datawrapper-chart-T5bSk" src="https://datawrapper.dwcdn.net/T5bSk/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="SATFin inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="SAT Scores by Financial Aid" aria-label="Column Chart" id="datawrapper-chart-Qn8N5" src="https://datawrapper.dwcdn.net/Qn8N5/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="SATSubScores inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="SAT Score by SAT Score Submission" aria-label="Column Chart" id="datawrapper-chart-qxrmc" src="https://datawrapper.dwcdn.net/qxrmc/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="SATRec inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="SAT Scores by Recruit Status" aria-label="Column Chart" id="datawrapper-chart-xy7y4" src="https://datawrapper.dwcdn.net/xy7y4/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="SATLeg inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="SAT Scores by Legacy Status" aria-label="Column Chart" id="datawrapper-chart-ChSal" src="https://datawrapper.dwcdn.net/ChSal/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="ACTScore inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="ACT Scores" aria-label="Column Chart" id="datawrapper-chart-oWgF1" src="https://datawrapper.dwcdn.net/oWgF1/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-
-                        <div class="SATScore inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="SAT Scores" aria-label="Column Chart" id="datawrapper-chart-RrK3C" src="https://datawrapper.dwcdn.net/RrK3C/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="ACTLeg inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="ACT Score by Legacy Status" aria-label="Column Chart" id="datawrapper-chart-nP8Kh" src="https://datawrapper.dwcdn.net/nP8Kh/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="SATSub inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="SAT Score Submission" aria-label="chart" id="datawrapper-chart-DFmxw" src="https://datawrapper.dwcdn.net/DFmxw/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="ACTSub inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="ACT Score Submission" aria-label="chart" id="datawrapper-chart-LAbSE" src="https://datawrapper.dwcdn.net/LAbSE/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="SAT inner" style="opacity:0;pointer-events: none;"><iframe title="The SAT" aria-label="chart" id="datawrapper-chart-xs4Gn" src="https://datawrapper.dwcdn.net/xs4Gn/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-                        <div class="ACT inner" style="opacity:0;pointer-events: none;">
-                                <iframe title="The ACT" aria-label="chart" id="datawrapper-chart-a0Zm9" src="https://datawrapper.dwcdn.net/a0Zm9/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="454"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-                        </div>
-            
-
-
-
-                </div>
-        </div>
 
 
 
 
 
-        <!-- 
+                <!-- 
  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script> -->
 
-        <script>
+                <script>
 
 
 
 
-                $('.list-group-container').click(function (event) {
+                        $('.list-group-container').click(function (event) {
 
-                        event.preventDefault();
+                                event.preventDefault();
 
-                        category = "#" + $(this).parent().parent().attr("id")
+                                category = "#" + $(this).parent().parent().attr("id")
 
-                        console.log(category)
-
-
-
-                        // changes tab title style
-                        $(category).find('.list-group-container').css('background-color', 'white');
-                        $(category).find('.list-group-item').css('font-weight', 'normal');
-                        $(this).css('background-color', 'orange');
-                        $(this).children('.list-group-item').css('font-weight', 'bold');
+                                console.log(category)
 
 
 
-                        $(category).find('.inner').css('opacity', '0');
-                        $(category).find('.inner').css('pointer-events', 'none');
-                        $(category).find('.inner.' + $(this).attr('id')).css('opacity', '1');
-                        $(category).find('.inner.' + $(this).attr('id')).css('pointer-events', 'auto');
-                        console.log($(this).attr('id'));
+                                // changes tab title style
+                                $(category).find('.list-group-container').css('background-color', 'white');
+                                $(category).find('.list-group-item').css('font-weight', 'normal');
+                                $(this).css('background-color', 'orange');
+                                $(this).children('.list-group-item').css('font-weight', 'bold');
 
-                });
-        </script>
+
+
+                                $(category).find('.inner').css('opacity', '0');
+                                $(category).find('.inner').css('pointer-events', 'none');
+                                $(category).find('.inner.' + $(this).attr('id')).css('opacity', '1');
+                                $(category).find('.inner.' + $(this).attr('id')).css('pointer-events', 'auto');
+                                console.log($(this).attr('id'));
+
+                        });
+                </script>
 
 </body>
 
