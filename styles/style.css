@@ -85,6 +85,12 @@ browser window really skinny */
   
 }
 
+#methodology-text{
+
+  padding-top: 20%;
+
+}
+
 /* .image {
 	width: 100%; 
 } */
@@ -207,6 +213,15 @@ width: 100%;
 	font-size: 18px;
 	margin-top: 5%;
 	/* margin-left: 3%; */
+}
+
+.commentary a{
+  color: #6c249c;
+  text-decoration: none;
+}
+
+.commentary a:hover {
+  text-decoration: underline;
 }
 
 .intro-text {

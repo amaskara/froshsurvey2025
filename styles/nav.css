@@ -46,8 +46,13 @@
 }
 
 .selected{
-  font-weight: 800;
-  color: #6c249c;
+  /* font-weight: 800; */
+  color:white !important;
+  padding: 5px 8px 5px 8px;
+  border-radius: 8px;
+
+  background-color: #6c249c;
+
 
 }
 
