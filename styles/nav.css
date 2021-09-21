@@ -23,7 +23,7 @@
 #top-nav a:focus {
   /* font-weight: 600; */ /* Become bold on hover of nav link */
   text-decoration: underline; /* Underline on hover of nav link */
-  color: rgb(73, 160, 201);
+  color: #6c249c;
 }
 
 .nav-brand {
@@ -43,6 +43,12 @@
 .nav-links a {
   font-family: sofia-pro-soft, sans-serif;
   margin-left: 1.5rem;
+}
+
+.selected{
+  font-weight: 800;
+  color: #6c249c;
+
 }
 
 .menu-icon {
