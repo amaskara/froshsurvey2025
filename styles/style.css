@@ -254,11 +254,31 @@ width: 100%;
 	border-color: rgb(145, 189, 224);
 }
 
+.credits {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.credits p strong {
+  display: inline-block;
+  padding-top: 5%;
+}
+
 #placeholder {
 	height: 400px; 
 }
 
+.mobileTitle{
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
+
+  .mobileTitle{
+    display: inline-block !important;
+  }
+
+  .mobileTitle 
 
     .logo{
         font-size: 20px;
