@@ -14,6 +14,48 @@ body {
   font-size: 30px;
 }
 
+.mobileTitle .page-nav {
+  margin-top: -60px;
+  margin-bottom: 50px; 
+  width: 100%;
+  text-align: center;
+}
+
+.mobileTitle .page-nav a{
+  font-size: 3vw;
+  color: black;
+}
+
+.mobileTitle .page-nav a:hover{
+  text-decoration: none;
+  color: #6c259c; 
+}
+
+.page-nav a{
+  text-decoration: none;
+  margin: 10px;
+  margin-left: none;
+  color: black; 
+}
+
+.page-nav a:first-of-type{
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.page-nav{
+  margin-top: 20px;
+  width: 80%;
+  text-align: left; 
+  overflow-y:inherit;
+}
+
+.page-nav a:hover,
+.page-nav a:focus {
+  text-decoration: none;
+  color: #6c259c; 
+}
+
 .tabbable-group {
   margin: auto;
   width: 50vw;
