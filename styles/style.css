@@ -41,16 +41,14 @@ body {
   white-space: no-wrap; 
 }
 
-.page-nav a:first-of-type{
-  margin-left: 0;
-  padding-left: 0;
-}
 
 .page-nav{
   margin-top: 20px;
   width: 80%;
   text-align: left; 
   overflow-y:inherit;
+  margin-left: -10px;
+  padding-left: 0;
 }
 
 .page-nav a:hover,
