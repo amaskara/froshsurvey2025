@@ -33,9 +33,12 @@ body {
 
 .page-nav a{
   text-decoration: none;
+  width: auto;
   margin: 10px;
   margin-left: none;
   color: black; 
+  display: inline-block;
+  white-space: no-wrap; 
 }
 
 .page-nav a:first-of-type{
@@ -54,6 +57,12 @@ body {
 .page-nav a:focus {
   text-decoration: none;
   color: #6c259c; 
+}
+
+.nav-div{
+  position: relative; 
+  top: -60px; 
+  height: 0px;
 }
 
 .tabbable-group {
